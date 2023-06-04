@@ -71,6 +71,26 @@ input[type="button"]:hover{
 
 .links a img{
     max-height: 40px;
-    margin-inline:20px;
-    
+    margin-inline:20px;   
+}
+
+.links a img:hover{
+    background-color: rgb(233, 169, 58);
+}
+
+.signup{
+    text-align: center;
+    margin-block: 25px;
+}
+
+.signup a{
+    font-size:1rem ;
+    font-weight:bold;
+    color: rgb(100, 100, 235);
+}
+
+.signup a:hover{
+    text-decoration: underline 3px;
+    color: rgb(98, 98, 239);
+    text-underline-offset: 3.7px;
 }
