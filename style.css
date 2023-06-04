@@ -63,3 +63,13 @@ input[type="button"]{
 input[type="button"]:hover{
     background-color: rgb(51, 69, 101);
 }
+
+.links{
+    display: flex;
+    justify-content: center;
+}
+
+.links a img{
+    max-height: 50px;
+    margin-block:20px;
+}
