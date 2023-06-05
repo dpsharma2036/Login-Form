@@ -17,7 +17,7 @@
 
 .form-container{
     width: 60%;
-    height:50% ;
+    height:70% ;
     max-width: 400px;
     background-color: rgb(133, 138, 137);
     border-radius: 10px;
@@ -64,6 +64,10 @@ input[type="button"]:hover{
     background-color: rgb(51, 69, 101);
 }
 
+#nameField{
+    display: none;
+}
+
 .links{
     display: flex;
     justify-content: center;
@@ -71,7 +75,8 @@ input[type="button"]:hover{
 
 .links a img{
     max-height: 40px;
-    margin-inline:20px;   
+    margin-inline:20px; 
+    margin-top: 30px;  
 }
 
 .links a img:hover{

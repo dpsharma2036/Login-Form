@@ -7,3 +7,8 @@ signup.onclick = function(){
     heading.innerHTML = "SignUp";
     nameField.style.display = "block";
 }
+
+signin.onclick = function(){
+    heading.innerHTML = "Login";
+    nameField.style.display = "none";
+}
