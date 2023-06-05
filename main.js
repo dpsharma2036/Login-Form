@@ -1,14 +1,14 @@
 const heading = document.getElementById("heading");
-const name = document.getElementById("nameField");
-const signin = document.getElementById("signInBtn");
-const signup = document.getElementById("signUpBtn");
+const nameField = document.getElementById("nameField");
+const signInBtn = document.getElementById("signInBtn");
+const signUpBtn = document.getElementById("signUpBtn");
 
-signup.onclick = function(){
+signUpBtn.onclick = function(){
     heading.innerHTML = "SignUp";
     nameField.style.display = "block";
 }
 
-signin.onclick = function(){
+signInBtn.onclick = function(){
     heading.innerHTML = "Login";
     nameField.style.display = "none";
 }
